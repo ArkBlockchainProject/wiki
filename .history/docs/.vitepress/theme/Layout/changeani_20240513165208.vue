@@ -16,9 +16,7 @@ import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, provide } from 'vue'
 
-
 const { isDark } = useData()
-
 
 const enableTransitions = () =>
   'startViewTransition' in document &&

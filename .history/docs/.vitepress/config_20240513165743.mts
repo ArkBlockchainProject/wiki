@@ -53,9 +53,8 @@ export default defineConfig({
         text: "欢迎",
         items: [
           { text: "新征程从这里开始", link: "/docs/welcome/welcome" },
-          { text: "帮助我们", link: "/docs/welcome/helpwithus" },
           { text: "请注意", link: "/docs/welcome/first" },
-
+          // { text: "帮助我们", link: "/docs/welcome/helpwithus" },
         ],
       },
       {
