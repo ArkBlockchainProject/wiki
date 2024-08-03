@@ -8,7 +8,7 @@ export default defineConfig({
   title: "Web 3 Helper",
   description: "一份面向所有人的 Web 3 入门知识库",
   lastUpdated: true, //此配置不会立即生效，需git提交后爬取时间戳，本地报错可以先注释
-  base: "/",
+  base: "/wiki/",
   themeConfig: {
     darkModeSwitchLabel: '模式',
     //本地搜索
